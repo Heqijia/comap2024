@@ -6,6 +6,7 @@
              p1_distance_run_normal: normalization之后的p1_distance_run_normal
              player1_dist: 选手当局跑动距离/两人加起来的跑动距离
              （这里可以再考虑加个pressure，由前面的set game point差值和当前值加权构成）
+               这里只有一个player1 因为这两个player的在赛场上表现的属性是一样的 把他们接在一起了
              目的：用赛场表现数据 预测比赛胜负（见LR.ipynb）
    
 4. performance.csv 选手每局表现数据 (result)
