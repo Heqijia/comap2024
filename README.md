@@ -1,4 +1,3 @@
-![image](https://github.com/Heqijia/comap2024/assets/105038826/549bfd6b-fb28-4160-ba7d-cd3b38c9a49c)# comap2024
 
 # datasets
 1. Wimbledon_featured_matches.csv 原始数据
