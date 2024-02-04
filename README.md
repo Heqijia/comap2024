@@ -15,7 +15,7 @@
 
 # Codes
 1. LR: 逻辑回归+performance分析 原来random split有0.78~8.0的acc，后来把测试集单独第一场比赛拿出来变成了0.75 :(  
-   表现得分计算方式：x=log(单场逻辑回归probability*10*(2381/(2381+4903))+1) if 自己发球，else x=log(单场逻辑回归probability*10*(4903/(2381+4903))+1) if 对手发球  
+   表现得分计算方式：x=log(单场逻辑回归probability\*10\*(2381/(2381+4903))+1) if 自己发球，else x=log(单场逻辑回归probability\*10\*(4903/(2381+4903))+1) if 对手发球  
    2381数据集中自己发球输球的次数，4903是自己发球赢球的次数  
    current performance: 最近三局x的平均/maximum_point  
    overall performance: 累计x的平均 /maximum_point  
